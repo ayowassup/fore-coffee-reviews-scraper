@@ -1,8 +1,5 @@
 # Scraping "Fore Coffee" App Reviews on Google Play Store
 
----
-
-## **Project Overview:**
 This mini python project aims to scrape user reviews of the `Fore Coffee` application on Google Play Store. The project uses web scraping techniques to fetch review data, filter reviews by year, and save the results in CSV format.
 
 ## **About Fore Coffee:**
@@ -28,7 +25,7 @@ In this project, the Fore Coffee app ID (`coffee.fore2.fore`) is used to fetch r
 ## **Project Output:**
 The final output of this project is a CSV file containing the reviews of the "Fore Coffee" app from 2023. The CSV file includes columns such as name, date created, reviews, and rating. The file is saved in the `/generated_data` folder.
 
-## How to Use:
+## **How to Use:**
 
 1. Clone this repository.
 2. Ensure all required libraries are installed.
@@ -39,7 +36,7 @@ Since GitHub does not render the output of Jupyter Notebooks directly, you can u
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ayowassup/fore-coffee-reviews-scraper/blob/main/Fore_Coffee_Google_Play_Reviews.ipynb) [![View on nbviewer](https://img.shields.io/badge/View%20on-nbviewer-brightgreen)](https://nbviewer.jupyter.org/github/ayowassup/fore-coffee-reviews-scraper/blob/main/Fore_Coffee_Google_Play_Reviews.ipynb)
 
-## Disclaimer:
+## **Disclaimer:**
 
 This code was originally used for my undergraduate thesis but with a different mobile application. I'm sharing this code, including the addition of the review filtering feature by year. You may use this code for other applications as you see fit. For further usage, please refer to the documentation of the Google Play Scraper library on the following page: [https://pypi.org/project/google-play-scraper/](https://pypi.org/project/google-play-scraper/).
 
